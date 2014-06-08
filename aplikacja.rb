@@ -1,7 +1,7 @@
 #!/bin/env ruby
 require 'sinatra'
 get 'hello/:name' do
-  "Hello #{params[:name]}!
+  "Hello #{params[:name]}!"
 end
 
 post 'mistrz' do
