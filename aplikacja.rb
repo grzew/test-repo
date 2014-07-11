@@ -5,5 +5,5 @@ get '/hello/:name' do
 end
 
 post '/mistrz' do
-  "Mistrzowie to my"
+  "Jesteś mistrzem"
 end
